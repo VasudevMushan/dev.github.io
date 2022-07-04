@@ -29,9 +29,12 @@ public class Calculator{
         return a+b+c;
     }
 
-
     public int sub (int a, int b, int c){
         return a-b-c;
+    }
+
+    public int product(int a, int b, int c){
+        return a*b*c;
     }
 
 }
